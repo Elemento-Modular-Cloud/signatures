@@ -1,0 +1,21 @@
+.name::after {
+    content: 'Gabriele Gaetano Fronzé';
+}
+.role::after {
+    content: 'CEO & Co-founder';
+}
+.company::after {
+    content: 'Elemento Srl';
+}
+.phone::after {
+    content: '+39 3397039676';
+}
+.email::after {
+    content: 'gfronze@elemento.cloud';
+}
+.website::after {
+    content: 'www.elemento.cloud';
+}
+.address::after {
+    content: 'Via Allione 2, 12100 Cuneo (Italia)';
+}

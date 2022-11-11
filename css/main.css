@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    max-width: 30rem;
+}
+.wrapper {
+    display: table;
+    width: 100%;
+    height: auto;
+}
+.text {
+    display: table-row;
+    font-family: "Open Sans", sans-serif;
+    font-size: .5rem;
+    line-height: .8rem;
+    color: #0E1119;
+}
+.name {
+    font-weight: bold;
+    font-size: .7rem;
+    line-height: .9rem;
+}
+.company {
+    font-weight: bold;
+    font-size: .6rem;
+    line-height: .8rem;
+}
+.phone::before {
+    content: '📞 ';
+}
+.email::before {
+    content: '📫 ';
+}
+.website::before {
+    content: '🌐 ';
+}
+.address::before {
+    content: '📍 ';
+}
+.logo {
+    height: 4rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    width: auto;
+}
+.disclaimer::before {
+    content: 'The information transmitted by this email is intended only for the person or entity to which it is addressed. This email may contain proprietary, confidential, and/or privileged material pursuant to Legislative Decree 196/2003 and the European General Data Protection Regulation 679/2016 (GDPR). If you are not the intended recipient of this message, be aware that any use, review, retransmission, distribution, reproduction or any action taken in reliance upon this message is strictly prohibited. If you received this in error, please contact the sender and delete the material from all computers.';
+    color: gray;
+    font-size: .5rem;
+    line-height: .6rem;
+}
